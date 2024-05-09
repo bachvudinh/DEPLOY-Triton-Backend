@@ -1,0 +1,2 @@
+#!/bin/bash
+tritonserver --model-repository=/tensorrt/triton-repos/T5-ner --model-control-mode=explicit --load-model=preprocessing --load-model=postprocessing --load-model=tensorrt_llm --load-model=tensorrt_llm_bls --load-model=ensemble  --log-verbose=2 --log-info=1 --log-warning=1 --log-error=1

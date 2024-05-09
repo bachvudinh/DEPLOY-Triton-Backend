@@ -1,0 +1,1 @@
+curl -X POST localhost:8000/v2/models/ensemble/generate -d '{"text_input": "The North will remember.", "max_tokens": 200, "bad_words": "", "stop_words": ""}'
